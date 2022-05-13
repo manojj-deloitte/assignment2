@@ -1,0 +1,19 @@
+#%RAML 1.0
+title: New API
+types:
+  Userdetails:
+    items:
+      properties:
+        post_id:
+          example: "2003"
+          type: string
+        id:
+          example: "1978"
+          type: string
+        name:
+          example: Bhaaswar Pothuvaal III
+          type: string
+/milestone2:
+  get:
+    responses:
+      "200": {}

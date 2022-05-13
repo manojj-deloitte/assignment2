@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "18d72d3a-74af-4411-9967-f0ed51a80ecd",
+		"name": "Integration-Workspace-manoj",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "milestone 1 manoj",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://milestone1-manoj-myoz.us-e2.cloudhub.io/api",
+					"protocol": "http",
+					"host": [
+						"milestone1-manoj-myoz",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "milestone 2 manoj",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"post_id\": 2003\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "milestone2manoj-fqhp.us-e2.cloudhub.io/milestone2",
+					"host": [
+						"milestone2manoj-fqhp",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"milestone2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "milestone 3 manoj",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://milestone3manoj-ycby.us-e2.cloudhub.io/milestone3",
+					"protocol": "http",
+					"host": [
+						"milestone3manoj-ycby",
+						"us-e2",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"milestone3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: New API
+types:
+  milestone-3:
+    properties:
+      Name:
+        example: Gorakhanatha Chaturvedi
+        type: string
+      Status:
+        example: active
+        type: string
+      Gender:
+        example: female
+        type: string
+/milestone3:
+  get:
+    responses:
+      "200": {}
